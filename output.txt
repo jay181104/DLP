@@ -1,0 +1,22 @@
+Lexical Error: #include
+Operator: <
+Lexical Error: stdio.h
+Operator: >
+Keyword: int
+Keyword: main
+Punctuation: (
+Punctuation: )
+Punctuation: {
+Identifier: printf
+Punctuation: (
+Lexical Error: "Hi
+Lexical Error: Jay"
+Punctuation: )
+Punctuation: ;
+Keyword: return
+Constant: 0
+Punctuation: ;
+Punctuation: }
+
+Symbol Table Entries:
+1. printf
