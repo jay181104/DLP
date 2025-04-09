@@ -1,0 +1,26 @@
+Conflict detected for S and terminal a
+Conflict detected for S and terminal c
+
+Predictive Parsing Table:
+------------------------
+Non-Terminal   $              (              )              a              b              c
+S                             D                             D              A B C          D
+A              ╬╡             ╬╡             ╬╡             a              ╬╡
+B              ╬╡                            ╬╡                            b              ╬╡
+C                                                                                         c
+D                             A C                           A C                           A C
+
+The grammar is not LL(1) due to conflicts in the parsing table.
+
+String Validation:
+-----------------
+Testing string "abc": Invalid string
+Testing string "ac": Valid string
+Testing string "(abc)": Invalid string
+Testing string "c": Invalid string
+Testing string "(ac)": Invalid string
+Testing string "a": Invalid string
+Testing string "()": Invalid string
+Testing string "(ab)": Invalid string
+Testing string "abcabc": Invalid string
+Testing string "b": Invalid string
