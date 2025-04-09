@@ -1,0 +1,107 @@
+Comment ignored
+Keyword: void
+Identifier: main
+Punctuation: (
+Punctuation: )
+Punctuation: {
+Keyword: long
+Keyword: int
+Identifier: bs
+Punctuation: ,
+Identifier: da
+Punctuation: ,
+Identifier: hra
+Punctuation: ,
+Identifier: gs
+Punctuation: ;
+Comment ignored
+Keyword: scanf
+Punctuation: (
+Lexical Error: "
+Operator: %
+Identifier: ld
+Lexical Error: "
+Punctuation: ,
+Lexical Error: &
+Identifier: bs
+Punctuation: )
+Punctuation: ;
+Comment ignored
+Identifier: da
+Operator: =
+Identifier: bs
+Operator: *
+Lexical Error: .
+Constant: 40
+Punctuation: ;
+Identifier: hra
+Operator: =
+Identifier: bs
+Operator: *
+Lexical Error: .
+Constant: 20
+Punctuation: ;
+Identifier: gs
+Operator: =
+Identifier: bs
+Operator: +
+Identifier: da
+Operator: +
+Identifier: hra
+Punctuation: ;
+Comment ignored
+Keyword: printf
+Punctuation: (
+Lexical Error: "
+Lexical Error: \
+Identifier: n
+Lexical Error: \
+Identifier: nbs
+Lexical Error: :
+Operator: %
+Identifier: ld
+Lexical Error: "
+Punctuation: ,
+Identifier: bs
+Punctuation: )
+Punctuation: ;
+Keyword: printf
+Punctuation: (
+Lexical Error: "
+Lexical Error: \
+Identifier: nda
+Lexical Error: :
+Operator: %
+Identifier: ld
+Lexical Error: "
+Punctuation: ,
+Identifier: da
+Punctuation: )
+Punctuation: ;
+Keyword: printf
+Punctuation: (
+Lexical Error: "
+Lexical Error: \
+Identifier: nhra
+Lexical Error: :
+Operator: %
+Identifier: ld
+Lexical Error: "
+Punctuation: ,
+Identifier: hra
+Punctuation: )
+Punctuation: ;
+Keyword: printf
+Punctuation: (
+Lexical Error: "
+Lexical Error: \
+Identifier: ngs
+Lexical Error: :
+Operator: %
+Identifier: ld
+Lexical Error: "
+Punctuation: ,
+Identifier: gs
+Punctuation: )
+Punctuation: ;
+Punctuation: }

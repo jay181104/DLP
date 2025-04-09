@@ -1,0 +1,32 @@
+Comment ignored
+Keyword: struct
+Identifier: student
+Punctuation: {
+Keyword: int
+Identifier: id
+Punctuation: ;
+Keyword: float
+Identifier: cgpa
+Punctuation: ;
+Punctuation: }
+Keyword: void
+Identifier: main
+Punctuation: (
+Punctuation: )
+Punctuation: {
+Identifier: student
+Identifier: s
+Punctuation: ;
+Identifier: s
+Lexical Error: .
+Identifier: id
+Operator: =
+Constant: 10
+Punctuation: ;
+Identifier: s
+Lexical Error: .
+Identifier: cgpa
+Operator: =
+Constant: 8.7
+Punctuation: ;
+Punctuation: }
