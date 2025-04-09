@@ -1,0 +1,32 @@
+1. Enter a string: ( a )
+   Valid string
+
+2. Enter a string: a
+   Valid string
+
+3. Enter a string: (a)
+   Valid string
+
+4. Enter a string: (a,a)
+   Valid string
+
+5. Enter a string: (a,(a,a),a)
+   Valid string
+
+6. Enter a string: (a,a),(a,a)
+   Invalid string
+
+7. Enter a string: a)
+   Invalid string
+
+8. Enter a string: (a
+   Invalid string
+
+9. Enter a string: a,a
+   Invalid string
+
+10. Enter a string: a,
+   Invalid string
+
+11. Enter a string: (a,a),a
+   Invalid string
