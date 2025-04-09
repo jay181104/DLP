@@ -1,0 +1,20 @@
+Arithmetic Expression Evaluation:
+--------------------------------
+Input: (3 + 5) * 2 => Result: 16
+Input: 3 + 5 * 2 => Result: 13
+Input: 3 + 5 * 2 ^ 2 => Result: 23
+Input: 3 + (5 * 2) => Result: 13
+Input: 3 + 5 ^ 2 * 2 => Result: 53
+Input: 3 * (5 + 2) => Result: 21
+Input: (3 + 5) ^ 2 => Result: 64
+Input: 3 ^ 2 ^ 3 => Result: 6561
+Input: 3 ^ 2 + 5 * 2 => Result: 19
+Input: 3 + ^ 5 => Invalid expression
+Input: (3 + 5 * 2 => Invalid expression
+Input: (3 + 5 * 2 ^ 2 - 8) / 4 ^ 2 + 6 => Result: 6.9375
+
+Enter expressions to evaluate (or 'quit' to exit):
+> 3 + 5) * 2 ^ 3
+Invalid expression
+> (3 + 5) * 2 ^ 3
+Result: 64
