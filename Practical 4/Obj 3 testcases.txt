@@ -1,0 +1,12 @@
+1. I want to calculate a number. The number of characters, words and lines. 
+ 
+All know that \n is ending character of line. 
+
+Characters: 123
+Words: 19
+Lines: 3
+
+2. 45 + 89 =40
+Characters: 12
+Words: 3
+Lines: 1

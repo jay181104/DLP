@@ -1,0 +1,26 @@
+1. aB1@
+Invalid password
+
+2. aaBB11,#cdefg2345
+Invalid password
+
+3. Charusat
+Invalid password
+
+4. CHARUSAT
+Invalid password
+
+5. CHArusat123
+Invalid password
+
+6. Charusat@2024
+Valid password
+
+7. Cspit-2024
+Invalid password
+
+8. Charu$at@20#24
+Valid password
+
+9. charu*sAT;22
+Valid password

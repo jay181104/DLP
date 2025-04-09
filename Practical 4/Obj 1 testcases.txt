@@ -1,0 +1,8 @@
+1. power operation -> 12 ** 3 = 1728 
+12
+3
+1728
+
+2. You multiply 804569 with 1 then will be : 
+804569
+1
