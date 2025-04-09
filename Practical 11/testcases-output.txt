@@ -1,0 +1,56 @@
+Expression: 9 + 42 * 8
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
+*         42        8         t1
++         9         t1        t2
+
+Expression: 5 + 6 - 3
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
++         5         6         t1
+-         t1        3         t2
+
+Expression: 7 - ( 8 * 2 )
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
+*         8         2         t1
+-         7         t1        t2
+
+Expression: ( 9 - 3 ) + ( 5 * 4 / 2 )
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
+-         9         3         t1
+*         5         4         t2
+/         t2        2         t3
++         t1        t3        t4
+
+Expression: ( 3 + 5 * 2 - 8 ) / 4 - 2 + 6
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
+*         5         2         t1
++         3         t1        t2
+-         t2        8         t3
+/         t3        4         t4
+-         t4        2         t5
++         t5        6         t6
+
+Expression: 86 / 2 / 3
+
+Quadruple Table:
+Operator  Operand1  Operand2  Result
+----------------------------------------
+/         86        2         t1
+/         t1        3         t2
+
+Process returned 0 (0x0)   execution time : 0.106 s
+Press any key to continue.
