@@ -1,0 +1,14 @@
+Original Expression: 5 + x - 3 * 2
+Optimized Expression: 5 + x - 6
+
+Original Expression: 2 + 3 * 4 - 1
+Optimized Expression: 5 * 3
+
+Original Expression: x + ( 3 * 5 ) - 2
+Optimized Expression: x + ( 15 ) - 2
+
+Original Expression: ( 22 / 7 ) * r * r
+Optimized Expression: ( 3 ) * r * r
+
+Process returned 0 (0x0)   execution time : 0.053 s
+Press any key to continue.
